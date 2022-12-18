@@ -10,7 +10,7 @@
     "@babel/preset-env": "^7.8.4",
     "babel-preset-minify": "^0.5.1",
     "minimist": ">=1.2.6",
-    "husky": "^4.2.3"
+    "husky": "^4.3.8"
   },
   "scripts": {
     "build": "npx babel src --out-file assets/js/theme.min.js --source-maps && hugo -v --source=exampleSite --themesDir=../.. -D --gc",
